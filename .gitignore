@@ -2,3 +2,4 @@
 .gradle
 *.iws
 out/
+build
