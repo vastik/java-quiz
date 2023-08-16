@@ -11,7 +11,7 @@ public class StreamCaseTests {
      */
     @Test
     public void reverseFileRead() throws IOException {
-        File sourceFile = new File("workspace/io/reverse-case-source.bin");
-        File resultFile = new File("workspace/io/reverse-case-result.bin");
+        File sourceFile = new File("workspace/dictionary.bin");
+        File resultFile = new File("workspace/dictionary-reversed.bin");
     }
 }
