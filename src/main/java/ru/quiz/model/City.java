@@ -16,6 +16,9 @@ public class City {
         this.countryCode = countryCode;
     }
 
+    public City() {
+    }
+
     public int getId() {
         return id;
     }

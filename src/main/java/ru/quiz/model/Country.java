@@ -16,6 +16,9 @@ public class Country {
     private int capital;
     private List<City> cities = new ArrayList<>();
 
+    public Country() {
+    }
+
     public Country(String code, String name, String continent, int population,
                    double surfaceArea, double gnp, int capital) {
         this.code = code;

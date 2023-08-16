@@ -6,7 +6,11 @@ import ru.quiz.model.Country;
 import ru.quiz.service.CitiesRepository;
 
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.List;
+import java.util.LongSummaryStatistics;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class CountryCaseTest {
     private static CitiesRepository repository;
@@ -17,8 +21,7 @@ public class CountryCaseTest {
     }
 
     /**
-     * Вывести минимум, максимум и среднее количество населения каждой страны.
-     * Дополнительно отсортировать по имени.
+     * Вывести среднее количество населения каждой страны. Дополнительно отсортировать по убыванию населения.
      */
     @Test
     public void printAvgMaxMinCountryPopulation() {
